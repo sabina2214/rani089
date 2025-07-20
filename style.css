@@ -1,105 +1,87 @@
+/* Reset Dasar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #fdfdfd;
-  color: #222;
-  line-height: 1.6;
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1-6;
 }
+
 header {
-  background: #4a148c;
-  color: #fff;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    background-color: #89CFF0;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
 }
-.logo {
-  font-size: 1.6rem;
-  font-weight: bold;
+
+header h1 {
+    font-size: 2.rem;
+    margin-bottom: 0.5rem;
 }
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
+
+main {
+    padding: 2rem;
 }
-nav a {
-  color: #fff;
-  text-decoration: none;
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0,1);
+    overflow: hidden;
 }
-.hero {
-  background: url('https://images.pexels.com/photos/6311397/pexels-photo-6311397.jpeg?auto=compress&cs=tinysrgb&h=600') center/cover no-repeat;
-  color: #fff;
-  text-align: center;
-  padding: 5rem 2rem;
+
+.product img {
+    width: 100;
+    max-width: 300px;
+    object-fit: cover;
 }
-.hero-content {
-  background-color: rgba(0, 0, 0, 0.5);
-  display: inline-block;
-  padding: 2rem;
-  border-radius: 10px;
+
+.product-info {
+    padding: 1.5rem;
+    flex: 1;
 }
-.btn {
-  background-color: #ff4081;
-  color: #fff;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 30px;
-  margin-top: 1rem;
-  display: inline-block;
-  text-decoration: none;
+
+.product-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
-.produk {
-  padding: 2rem;
-  text-align: center;
+
+.product-info p {
+    margin-bottom: 1rem;
 }
-.produk-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
+
+.product-info ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
 }
-.card {
-  background: #fff5f8;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+button {
+    background-color: #ff7f50;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background color;
 }
-.card img {
-  width: 100%;
-  border-radius: 10px;
+
+button:hover {
+    background-color: #e26941;
 }
-.card h3 {
-  margin: 0.5rem 0;
-}
-.desc {
-  font-size: 0.95rem;
-  color: #555;
-}
-.harga {
-  font-weight: bold;
-  margin: 0.5rem 0;
-}
-.card button {
-  background: #d81b60;
-  color: white;
-  border: none;
-  padding: 0.5rem 1.2rem;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.kontak {
-  background: #f3e5f5;
-  padding: 2rem;
-  text-align: center;
-}
+
 footer {
-  background: #4a148c;
-  color: white;
-  text-align: center;
-  padding: 1rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
 }
