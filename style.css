@@ -1,0 +1,105 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fdfdfd;
+  color: #222;
+  line-height: 1.6;
+}
+header {
+  background: #4a148c;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.hero {
+  background: url('https://images.pexels.com/photos/6311397/pexels-photo-6311397.jpeg?auto=compress&cs=tinysrgb&h=600') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.btn {
+  background-color: #ff4081;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  margin-top: 1rem;
+  display: inline-block;
+  text-decoration: none;
+}
+.produk {
+  padding: 2rem;
+  text-align: center;
+}
+.produk-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.card {
+  background: #fff5f8;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card h3 {
+  margin: 0.5rem 0;
+}
+.desc {
+  font-size: 0.95rem;
+  color: #555;
+}
+.harga {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+.card button {
+  background: #d81b60;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.kontak {
+  background: #f3e5f5;
+  padding: 2rem;
+  text-align: center;
+}
+footer {
+  background: #4a148c;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
